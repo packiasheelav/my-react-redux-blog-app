@@ -1,0 +1,80 @@
+
+button{
+    background-color:#00BCD5;
+    border:none;
+    padding:10px;
+}
+.header{
+      
+    background-color:#00BCD5; 
+    height:75px;
+    color:white;
+
+}
+.allPosts{
+   
+    border:2px solid white;
+    margin:15px;
+    color:white;
+}
+.allPosts :hover{
+background-color: #00BCD5;
+}
+
+.posts{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr ; 
+}
+.posts button{
+    background-color:transparent;
+
+}
+.selectedPost{
+    margin:50px;
+    border:2px dotted rgb(245, 242, 242);
+    color:white;
+    height:400px;
+}
+.selectedPost button{
+height:35px;
+width:100px;
+
+    }    
+.message{
+width:100%;
+border:1px dotted white;
+height:90px;
+height:150px;
+padding-top:30px;
+}
+
+
+.buttonSelectedPost{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+}
+.postDeleteButton{
+    float:right;
+}
+.Selected{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    border: 2px solid white;
+}
+.update{
+    margin:10px;
+    padding:20px;
+    width:200px;
+    height:100px;
+}
+.updatePostContent{
+    width:80%;
+    height:70px;
+}
+.postsforStyling :nth-child(odd){
+    color:white;
+}
+.postsforStyling :nth-child(even){
+    color:gainsboro;
+}
+

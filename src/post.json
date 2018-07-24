@@ -1,0 +1,31 @@
+[
+    {   "id":"0",
+        "title":"My day in integrify",
+        "category":"Work",
+        "selectPost":"false",
+        "editing":"false",
+        "postContent":"Happy July! Wow. I am shocked at how fast June went. I spent a lot of time writing, and it’s been exciting to see the Lord’s blessing upon this first draft"
+    },
+    {   "id":"1",
+        "title":"My day in India",
+        "category":"Recreation",
+        "selectPost":"false",
+        "editing":"false",
+
+        "postContent":"hi I am sheela . I spent a lot of time writing, and it’s been exciting to see the Lord’s blessing upon this first draft"
+    },
+    {   "id":"2",
+        "title":"My day in Finland",
+        "category":"Sport",
+        "selectPost":"false",
+        "editing":"false",
+        "postContent":"I spent a lot of time writing, and it’s been exciting to see the Lord’s blessing upon this first draft"
+    },
+    {   "id":"3",
+        "title":"My day in Home",
+        "category":"Game",
+        "selectPost":"false",
+        "editing":"false",
+        "postContent":"it’s been exciting to see the Lord’s blessing upon this first draft"
+    }
+  ]
