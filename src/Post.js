@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 class Post extends Component {
   handleSelect = () => {
-    console.log("inside select", this.props);
+ console.log(this.props);
     this.props.history.push(`/Posts/${this.props.post.id}`, {
       some: this.props.post
     });

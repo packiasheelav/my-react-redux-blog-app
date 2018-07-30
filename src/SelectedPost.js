@@ -4,11 +4,11 @@ import {NavLink} from 'react-router-dom';
 
 class SelectedPost extends Component {
     handleEdit=()=>{
-        console.log(this.props);
+       
         this.props.history.push(`/SelectedPost/${this.props.history.location.state.some.id}`, {temp:this.props.history.location.state.some})
     }
   render() {
-      console.log('inside selected post frm ohhh',this.props)
+      console.log('inside selected post frm ohhh',this.props);
       const index=this.props.history.location.state.some.id
   return (
     <div className='selectedPost'>

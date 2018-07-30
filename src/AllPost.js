@@ -9,11 +9,11 @@ class AllPost extends Component {
   }
 
   render() {
-    console.log(this.props);
+   
     return (
       <div className="postsforStyling">
         <h1 className="post_heading">All Posts</h1>
-        {this.props.posts.map(post => <Post post={post} key={post.id} />)}
+        {this.props.posts.map(post => <Post post={post} key={post.id} history = {this.props.history} />)}
       </div>
     );
   }
