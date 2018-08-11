@@ -20,7 +20,7 @@ const Links=()=>{
         <li className='Header'><NavLink exact activeStyle={{color:'orange'}} to='/'>All Post</NavLink></li>
 
         <li className='Header'><NavLink exact activeStyle={{color:'orange'}} to='/PostForm'>Add New Post</NavLink></li>
-        <li className='Header'><NavLink exact activeStyle={{color:'orange'}} to='/AllPost'>All Post</NavLink></li>
+        {/* <li className='Header'><NavLink exact activeStyle={{color:'orange'}} to='/AllPost'>All Post</NavLink></li> */}
         </ul>
         <Switch>
         <Route exact path='/PostForm' render={()=>(<PostForm />)}/> 
